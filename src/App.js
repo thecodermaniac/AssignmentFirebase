@@ -1,16 +1,13 @@
-
-
-import { db } from './FirebaseConfig';
-import { ref, onValue } from "firebase/database";
+import React from 'react';
+import Home from './components/Home';
+import AppState from './Context/AppState';
 
 function App() {
-  const dbRef = ref(db, 'user')
-  onValue(dbRef, (snapshot) => {
-    const data = snapshot.val();
-    console.log(data);
-  });
+
   return (
-    <div>lool</div>
+    <AppState>
+      <Home />
+    </AppState>
   );
 }
 
