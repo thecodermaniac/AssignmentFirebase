@@ -1,9 +1,11 @@
-![image](https://user-images.githubusercontent.com/79108244/214338265-c052d0c5-4686-4311-ac3a-71db80f24114.png)
+![image](https://user-images.githubusercontent.com/79108244/214338928-45e9bbae-9b2b-4df0-a176-4fb01e64a1a0.png)
+
 
 initial home page
 
 
-![image](https://user-images.githubusercontent.com/79108244/214338525-420df8b2-f83d-44f1-890e-aa88b4131c5d.png)
+![image](https://user-images.githubusercontent.com/79108244/214338854-b1457d17-3cba-44be-a085-4b434f777517.png)
+
 
 
 filetr modal
