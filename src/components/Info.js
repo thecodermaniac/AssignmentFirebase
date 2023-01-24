@@ -1,6 +1,6 @@
 import { Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import AppContext from "../Context/ContextProvider"
 const Style = {
   infoBox: {
@@ -8,7 +8,8 @@ const Style = {
     marginLeft: '20px'
   },
   header: {
-    fontWeight: '600'
+    fontWeight: '600',
+    fontSize:'1.5em'
   },
   infoGrid: {
     margin: '20px 20px'
@@ -18,9 +19,14 @@ const Style = {
 
 const Info = () => {
   const context = useContext(AppContext);
-  const { info } = context
+  const { info} = context
+  // useEffect(() => {
+  //   setinfo(eventsArr[0])
+  //   console.log(info);
+  // }, [info])
+
   return (
-    <div>Info
+    <div>
       <Box sx={Style.infoBox}>
         <Typography sx={Style.header}>{info?.ID}</Typography>
         <Typography sx={Style.header}>Person Detected</Typography>
