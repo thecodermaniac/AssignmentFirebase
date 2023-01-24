@@ -8,4 +8,4 @@ initial home page
 
 
 
-filetr modal
+filter modal
